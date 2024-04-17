@@ -1,0 +1,73 @@
+.main {
+  margin: 20px;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.main .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .top img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.main .profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-text {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.main .center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards-container .row {
+  display: flex;
+  gap: 20px;
+}
+.main .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bottom input {
+  border: 1px solid rgb(229, 229, 229);
+  width: 800px;
+  height: 50px;
+  border-radius: 15px;
+  padding-left: 25px;
+}
+
+.bottom-icon {
+  color: blue;
+  font-size: 28px;
+}
