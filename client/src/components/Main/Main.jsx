@@ -1,12 +1,16 @@
 import "./Main.css";
 import Card from "../Card/Card";
 import { BsArrowUpSquareFill } from "react-icons/bs";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Main = () => {
   return (
     <div className="main">
       <div className="top">
-        <div>
+        <div className="hamburger">
+          <GiHamburgerMenu />
+        </div>
+        <div className="h2div">
           <h2>KinectMind</h2>
         </div>
         <div className="profile-info">
